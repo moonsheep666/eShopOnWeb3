@@ -74,6 +74,6 @@ jobs:
         with:
           subscriptionId: ${{ env.SUBSCRIPTION-ID }}
           resourceGroupName: ${{ env.RESOURCE-GROUP }}
-          template: infra/vmcreation.bicep
+          template: bicep-template/vmcreation.bicep
           parameters: "vmName=${{ env.VM-NAME }} location=${{ env.LOCATION }} adminUsername=${{ env.ADMIN-USERNAME }} adminPassword=${{ secrets.VM_ADMIN_PASSWORD }}"
           failOnStdErr: false
