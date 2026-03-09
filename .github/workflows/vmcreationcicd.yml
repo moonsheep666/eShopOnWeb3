@@ -6,8 +6,8 @@ env:
   RESOURCE-GROUP: az2006-rg
   LOCATION: eastus
   TEMPLATE-FILE: infra/vmcreation.bicep
-  SUBSCRIPTION-ID: 7b21d0f2-9cbc-458c-9083-1067c878f5df
-  VM-NAME: az2006vm01
+  SUBSCRIPTION-ID: 9ded98c9-1310-497d-9ff8-de0210caa6a5
+  VM-NAME: az2006app59796474
   ADMIN-USERNAME: azureuser
 
 jobs:
